@@ -1,0 +1,161 @@
+/* === RESET & BASE === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* === CONTAINER === */
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* === HEADER === */
+h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+h3 {
+  margin-top: 30px;
+  color: #444;
+}
+
+/* === SEARCH INPUT === */
+input[type="text"] {
+  padding: 12px;
+  width: 70%;
+  max-width: 400px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-left: 10px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* === IMAGE === */
+img, #dishImage {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* === INFO SECTION === */
+#nutritionSection,
+#videoSection {
+  margin-top: 30px;
+  background: #fffdf7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+#nutritionSection ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* === FAVORITES LIST === */
+#favList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#favList li {
+  margin: 12px 0;
+  font-size: 18px;
+}
+
+#favList a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+#favList a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* === BACK LINKS === */
+a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* === IFRAME (YouTube) === */
+iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+/* === RESPONSIVE DESIGN === */
+@media (max-width: 600px) {
+  .container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  iframe {
+    height: 220px;
+  }
+}

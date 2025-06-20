@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Biryani",
+    "nutrition": {
+      "calories": "450 kcal",
+      "protein": "25g",
+      "fat": "18g"
+    },
+    "youtube": "https://www.youtube.com/embed/0t9zA3GfZ2c"
+  },
+  {
+    "name": "Pav Bhaji",
+    "nutrition": {
+      "calories": "300 kcal",
+      "protein": "9g",
+      "fat": "10g"
+    },
+    "youtube": "https://www.youtube.com/embed/SBacmN6Fs3Y"
+  }
+]

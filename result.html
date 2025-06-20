@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dish Result</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container" id="resultContainer">
+    <h1 id="dishTitle">Loading...</h1>
+    <img id="dishImage" src="" alt="" width="300" />
+    <p id="dishDescription"></p>
+    <p><strong>Origin:</strong> <span id="dishOrigin"></span></p>
+    <a href="index.html">🔙 Back to Search</a>
+
+    <div id="nutritionSection">
+        <h3>🧂 Nutrition Info</h3>
+        <ul>
+            <li><strong>Calories:</strong> <span id="calories"></span></li>
+            <li><strong>Protein:</strong> <span id="protein"></span></li>
+            <li><strong>Fat:</strong> <span id="fat"></span></li>
+        </ul>
+    </div>
+    
+    <div id="videoSection">
+        <h3>🎥 How to Make <span id="dishTitleInline"></span></h3>
+        <iframe id="videoFrame" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <button id="saveFavBtn">❤️ Save as Favorite</button>
+<a href="favorites.html">⭐ View Favorites</a>
+
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
